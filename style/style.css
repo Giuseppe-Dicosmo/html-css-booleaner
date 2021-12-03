@@ -19,7 +19,7 @@ h1{
     font-size: 50px;
 }
 
-span{
+.grey{
     color: grey;
 }
 
@@ -36,6 +36,24 @@ em{
     color: black;
 }
 
-p,li{
+p,li,th,td{
     font-size: 20px;
 }
+
+thead{
+    background: #20a9e5;
+    color: white;
+}
+
+table{
+    border-spacing: 0;
+}
+
+.lorem{
+    background: #b1e5f2;
+}
+
+td{
+    width: 5%;
+}
+
