@@ -15,7 +15,8 @@ header{
 }
 
 div.container{
-    margin: 5px;
+    width: 80%;
+    margin: auto;
 }
 
 h1{
@@ -40,7 +41,7 @@ em{
     color: black;
 }
 
-p,li,th,td{
+p, li, th, td{
     font-size: 20px;
 }
 
