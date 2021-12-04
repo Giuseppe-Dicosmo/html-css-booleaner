@@ -4,14 +4,13 @@
 }
 
 header{
-    background: url("../img/pattern.png") cornflowerblue;
+    background: url("../img/pattern.png") #4ea0ff;
     background-size: contain;
 }
 
 #logo{
-    margin: 5% 0% 1% 0%;
     width: 15%;
-    height: auto;
+    margin: 3% 0% 0.5% 10%;
 }
 
 div.container{
@@ -45,13 +44,13 @@ p, li, th, td{
     font-size: 20px;
 }
 
+table{
+    border-spacing: 0;
+}
+
 thead{
     background: #20a9e5;
     color: white;
-}
-
-table{
-    border-spacing: 0;
 }
 
 .lorem{
@@ -74,9 +73,8 @@ td{
     background: url(../img/graph.jpg) no-repeat;
 }
 
-.monitor_graph{
+span.monitor_graph > strong{
+    margin: 5%;
     color: white;
     font-size: 25px;
-
 }
-
